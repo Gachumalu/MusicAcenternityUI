@@ -1,4 +1,5 @@
 // pages/about.js
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -22,9 +23,9 @@ const About = () => {
           something new and exciting to listen to!
         </p>
         <div className="text-center">
-          <a href="/" className="text-blue-500 hover:text-blue-700">
+          <Link href="/" className="text-blue-500 hover:text-blue-700">
             Go back to Home
-          </a>
+          </Link>
         </div>
       </div>
     </div>
